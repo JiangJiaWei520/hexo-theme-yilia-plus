@@ -911,7 +911,6 @@ setInterval("createtime()",250);
 - 将样式文件放到`photos`文件夹下，样式文件我都放到了`github`上：https://github.com/lawlite19/Blog-Back-Up/tree/master/blog_photos_copy
 
   ```
-   assets/empty.png
    data.json
    index.ejs
    index.md
@@ -956,12 +955,15 @@ setInterval("createtime()",250);
   </script>
   ```
 
-  
+- assets放在source下
+
+  ```
+  source/assets/empty.png
+  ```
 
 - 修改ins.js文件，主要是里面的render函数
 
   - 其中的`url`对应到你的`github`放图片的地址
-
 
 ```stylus
     var render = function render(res) {
